@@ -9,8 +9,7 @@ Author: Chris Castiglione
 html {
 	/* set up a background image */
 	
-/*	background: url('../images/cookie-monster.jpg') no-repeat;
-*/
+background: url('../images/cookie-monster.jpg') no-repeat;
 	
 	/* the follow is the code to have the image display as a full page */
 	background-position: center;
@@ -19,4 +18,28 @@ html {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+
+h1 {
+	color: white;
+	font-size: 80px;
+}
+
+h2 {
+	background: #35C0F2;
+}
+
+a {
+	color: #35C0F2;
+}
+
+p {
+	color: white;
+}
+
+
+#container {
+	background: black;
+	width: 400px;
+	padding: 15px;
 }
